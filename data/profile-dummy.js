@@ -1,103 +1,114 @@
 const profileData = {
-  title: 'Profile',
-  name: 'John Doe',
-  sub_title: 'Ethical Hacker',
+  title: 'Resume',
+  name: 'Raj Chavan',
+  sub_title: 'Frontend Developer',
+  logoURL: 'assets/images/dp.jpg',
   about: {
-    intro: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+    intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
+     and it's applications. Experienced in designing and implementing sophisticated UI/UX with
+      Progressive Web Application standards and application life-cycle managements.`,
     contact: {
-      email: 'asdf@jkl.com',
-      phone: '+1-1001010010',
-      address: 'New York, USA'
+      email: 'chavanraj9693@gmail,com',
+      phone: '+91-8552811532',
+      address: 'Ratnagiri,Maharashtra'
     }
   },
   links: [
-    { title: 'Google', src: 'https://www.google.com/' },
-    { title: 'Facebook', src: 'https://www.facebook.com/' }
+    { title: 'Twitter', src: 'https://twitter.com/chavanraj9693' },
+    { title: 'Github', src: 'https://github.com/chavanraj9693' },
+    { title: 'LinkedIn', src: 'www.linkedin.com/in/raj-chavan-b36651221' }
+    // { title: 'Twitter', src: 'https://twitter.com/chavanraj9693' }
+    // { title: 'Github', src: 'https://github.com/chavanraj9693' },
   ],
   education: [
     {
-      alma: 'Lorem Ipsum',
-      duration: '1978 - 1980',
-      std: 'MSC',
-      score: '99.99%'
+      alma: 'Finolex academy of management and technology',
+      duration: '2021 - 2024',
+      std: 'B.Tech. (Computer Science & Engineering AI and ML)',
+      score: '9.64. 8.85' ,
     },
     {
-      alma: 'Dotor Sit Amet',
-      duration: '1975 - 1977',
-      std: 'SomeThing',
-      score: '99.99%'
+      alma: 'Shriman rameshji keer jr.college of science ratnagiri',
+      duration: '2018 - 2020',
+      std: 'Class XI - XII (PCM)',
+      score: '60%' ,
+    },
+    {
+      alma: ' Patwardhan Highschool ,Ratnagiri        ',
+      duration: '2011 - 2013',
+      std: 'Class IX - X (PCM)',
+      score: '71%' ,
     }
   ],
   skills: [
     {
-      category: 'Lorem Ipsum',
-      topics: ['Dolor', 'Sit', 'Amet', 'Consectetur', 'Adipiscing', 'Elit']
+      category: 'Programming Languages',
+      topics: ['Java', 'JavaScript', 'C', 'html' , 'css' , 'python',]
     },
     {
-      category: 'Sed / Eiusmod',
+      category: 'Frameworks / Libraries',
       topics: [
-        'Tempor',
-        'Incididunt',
-        'Labore',
-        'Dolore',
-        'Magna',
-        'Aliqua',
-        'Labore'
+        'ReactJS',
+        'NodeJS',
+        'Angular',
+        'Bootstrap',
+        'Flutter' ,
       ]
     },
     {
-      category: 'Minim Veniam',
-      topics: ['Quis', 'Nostrud', 'Exercitation', 'Ullamco']
+      category: 'Databases',
+      topics: ['MongoDB', 'MySQL']
     }
   ],
   projects: [
     {
-      title: 'Lorem Ipsum',
-      duration: 'Mar - Nov 1885',
-      link: 'https://github.com/',
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+      title: 'ascii Doughnut',
+      duration: 'June - Nov 2021',
+      link: 'https://github.com/chavanraj9693/ASCII-Doughnut-Animation',
+      desc: `a graphical representation of ascii codes in a animation way`
     },
-    {
-      title: 'Lorem Ipsum',
-      duration: 'Apr - Jul 1917',
-      link: 'https://github.com/',
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
-    }
+    
   ],
   experiences: [
     {
-      organization: 'World War 2',
-      title: `General`,
-      date: '1941 - 1945',
+      organization: 'GEOGO Techsolution pvt. ltd',
+      title: `Full Stack Development Intern`,
+      date: 'Apr 2021 - Present',
       details: [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+        `learning fullstack web development 
+        <strong>ReactJS</strong> with <strong>css</strong> and <strong>React</strong> for frontend and <strong>NodeJS-Express</strong>,<strong>MangoDB</strong>
+         for the backend.`,
+        `Created a customized Content Management System for MPL's website, to update content and images on the fly for different pages.`
       ]
     },
-    {
-      organization: 'World War 1',
-      title: `Soldier`,
-      date: '1914 - 1918',
-      details: [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-      ]
-    }
+
+    
+    
+    
   ],
   certifications: [
     {
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      date: 'Aug 1917'
+      desc: `<strong>Web Development masterclass</strong> by <strong>Udemy</strong>.
+      (<a target='_blank' rel='noreferrer' href='https://www.linkedin.com/posts/raj-chavan-b36651221_web-dev-activity-6868982759193501696-R2Hx/'>https://goo.gl/RGRzVn</a>)`,
+      date: 'May - Nov 2021'
     },
     {
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      date: 'Jul 1945'
-    }
+      desc: `<strong>Cyber security global virtual internship</strong>, Issued by Forage.
+      </em>.<strong>  </strong> 
+       (<a target='_blank' rel='noreferrer' href='https://www.linkedin.com/feed/update/urn:li:activity:6852984178049454080/'>
+       https://</a>)`,
+      date: 'Jan - Mar 2021'
+    },
+
+    {
+      desc: `<strong>miceisoft </strong>, Issued by Forage.
+      </em>.<strong>  </strong> 
+       (<a target='_blank' rel='noreferrer' href='https://www.linkedin.com/feed/update/urn:li:activity:6852984178049454080/'>
+       https://</a>)`,
+      date: 'Jan - Mar 2021'
+    },
+
+    
   ],
   events: []
 };
