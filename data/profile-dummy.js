@@ -1,7 +1,7 @@
 const profileData = {
   title: 'Resume',
   name: 'Raj Chavan',
-  sub_title: 'Frontend Developer',
+  sub_title: 'B.E Computer Science Engineering AI&ML',
   logoURL: 'assets/images/dp.jpg',
   about: {
     intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
@@ -100,15 +100,9 @@ const profileData = {
       date: 'Jan - Mar 2021'
     },
 
-    {
-      desc: `<strong>miceisoft </strong>, Issued by Forage.
-      </em>.<strong>  </strong> 
-       (<a target='_blank' rel='noreferrer' href='https://www.linkedin.com/feed/update/urn:li:activity:6852984178049454080/'>
-       https://</a>)`,
-      date: 'Jan - Mar 2021'
-    },
-
+    
     
   ],
   events: []
 };
+
